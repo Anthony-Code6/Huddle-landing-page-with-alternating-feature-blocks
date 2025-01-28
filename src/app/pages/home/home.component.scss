@@ -1,3 +1,33 @@
-.container{
-    padding: 4rem 0 6rem 0;
+.container {
+  padding: 4rem 0 15rem 0;
+  position: relative;
+}
+
+app-card-footer {
+  position: absolute;
+  left: 50%;
+  bottom: -80px;
+  transform: translateX(-50%);
+}
+
+@media screen and (min-width: 200px) and (max-width: 300px) {
+  .container {
+    padding: 4rem 0 4rem 0;
+  }
+
+  app-card-footer {
+    width: 100%;
+    max-width: max-content;
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 767px) {
+  .container {
+    padding: 4rem 0 9rem 0;
+  }
+
+  app-card-footer {
+    width: 100%;
+    max-width: max-content;
+  }
 }

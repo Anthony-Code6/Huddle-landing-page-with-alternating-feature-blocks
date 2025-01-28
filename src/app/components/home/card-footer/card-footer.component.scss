@@ -1,0 +1,150 @@
+.cards {
+  background: white;
+  padding: 2rem 6rem;
+  border-radius: 10px;
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  justify-content: center;
+  align-content: center;
+  .cards-body {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+    .titulo {
+      font-size: 1.6rem;
+      font-family: "Poppins", serif;
+      color: hsl(192, 100%, 9%);
+      font-weight: 600;
+    }
+
+    button {
+      text-align: center;
+      justify-content: center;
+      background-color: hsl(322, 100%, 66%);
+      color: hsl(193, 100%, 100%);
+      width: 100%;
+      max-width: 260px;
+      padding: 16px 17px;
+      font-size: 0.9rem;
+      border-radius: 30px;
+      font-family: "Poppins", serif;
+      font-weight: 600;
+      border: none;
+    }
+
+    button:hover {
+      filter: opacity(0.7);
+    }
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 300px) {
+    .cards {
+      padding: 2rem 1rem;
+      .cards-body {
+        width: 100%;
+        gap: 20px;
+        .titulo {
+          font-size: 0.8rem;
+        }
+  
+        button {
+          max-width: 110px;
+          padding: 12px 15px;
+          font-size: 0.4rem;
+        }
+      }
+    }
+  }
+
+@media screen and (min-width: 300px) and (max-width: 450px) {
+  .cards {
+    padding: 2rem 1.1rem;
+    .cards-body {
+      gap: 20px;
+      width: 100%;
+      .titulo {
+        font-size: 0.9rem;
+      }
+
+      button {
+        max-width: 130px;
+        padding: 12px 15px;
+        font-size: 0.4rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 450px) and (max-width: 768px) {
+  .cards {
+    padding: 2rem 1.1rem;
+    .cards-body {
+      gap: 20px;
+      .titulo {
+        font-size: 1.2rem;
+      }
+
+      button {
+        max-width: 170px;
+        padding: 16px 15px;
+        font-size: 0.6rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 992px) {
+  .cards {
+    padding: 2rem 1.8rem;
+    .cards-body {
+      gap: 20px;
+      .titulo {
+        font-size: 1.1rem;
+      }
+
+      button {
+        max-width: 170px;
+        padding: 16px 15px;
+        font-size: 0.6rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .cards {
+    padding: 2rem 3rem;
+    .cards-body {
+      gap: 20px;
+      .titulo {
+        font-size: 1.4rem;
+      }
+
+      button {
+        max-width: 240px;
+        padding: 16px 15px;
+        font-size: 0.7rem;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1200px) and (max-width: 1400px) {
+  .cards {
+    padding: 2rem 4.2rem;
+    .cards-body {
+      gap: 20px;
+      .titulo {
+        font-size: 1.6rem;
+      }
+
+      button {
+        max-width: 260px;
+        padding: 16px 17px;
+        font-size: 0.9rem;
+      }
+    }
+  }
+}

@@ -1,10 +1,11 @@
 import { Component, signal } from '@angular/core';
 import { InformacionHome } from '../../core/models/informacion-home';
 import { CardInformationComponent } from "../../components/home/card-information/card-information.component";
+import { CardFooterComponent } from "../../components/home/card-footer/card-footer.component";
 
 @Component({
   selector: 'app-home',
-  imports: [CardInformationComponent],
+  imports: [CardInformationComponent, CardFooterComponent],
   templateUrl: './home.component.html',
   styleUrl: './home.component.scss'
 })
