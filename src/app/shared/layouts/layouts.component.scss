@@ -1,0 +1,13 @@
+.app-presentacion {
+  background: hsl(193, 100%, 96%);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url("../../../../public/images/bg-hero-desktop.svg");
+}
+
+
+@media screen and (min-width:0px) and (max-width:498px) {
+    .app-presentacion {
+        background-image: url("../../../../public/images/bg-hero-mobile.svg");
+      }
+}

@@ -1,0 +1,377 @@
+.contenido {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 3.2rem;
+  padding-bottom: 3rem;
+  gap: 60px;
+  .descripcion {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    .titulo {
+      div {
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        font-size: 3.5rem;
+        color: hsl(192, 100%, 9%);
+      }
+    }
+
+    .contenido {
+      color: hsl(208, 11%, 55%);
+      text-align-last: auto;
+      font-size: 1.6rem;
+      font-family: "Open Sans", serif;
+      font-weight: 400;
+      margin: 0;
+      padding: 0;
+    }
+
+    .button {
+      button {
+        background-color: hsl(322, 100%, 66%);
+        color: hsl(193, 100%, 100%);
+        width: 100%;
+        max-width: 260px;
+        padding: 16px 17px;
+        font-size: 0.9rem;
+        border-radius: 30px;
+        font-family: "Poppins", serif;
+        font-weight: 600;
+        border: none;
+      }
+
+      button:hover {
+        filter: opacity(0.7);
+      }
+    }
+  }
+
+  .imagen {
+    .logo {
+      width: 860px;
+      height: auto;
+    }
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 368px) {
+  .contenido {
+    padding-top: 2rem;
+    display: block;
+    padding-bottom: 3rem;
+    margin: 0 1.4rem;
+    .descripcion {
+      text-align: center;
+      gap: 20px;
+      .titulo {
+        div {
+          font-size: 1.2rem;
+        }
+      }
+
+      .contenido {
+        font-size: .84rem;
+      }
+
+      .button {
+        button {
+          max-width: 200px;
+          padding: 18px 16px;
+          font-size: 0.57rem;
+        }
+      }
+    }
+
+    .imagen {
+      padding-top: 3rem;
+      display: block;
+      .logo {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 368px) and (max-width: 568px) {
+  .contenido {
+    padding-top: 2rem;
+    display: block;
+    padding-bottom: 3rem;
+    margin: 0 1.4rem;
+    .descripcion {
+      text-align: center;
+      gap: 20px;
+      .titulo {
+        div {
+          font-size: 1.8rem;
+        }
+      }
+
+      .contenido {
+        font-size: 1.15rem;
+      }
+
+      .button {
+        button {
+          max-width: 240px;
+          padding: 18px 16px;
+          font-size: 0.7rem;
+        }
+      }
+    }
+
+    .imagen {
+      padding-top: 3.7rem;
+      display: block;
+      .logo {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 568px) and (max-width: 768px) {
+  .contenido {
+    padding-top: 2rem;
+    display: block;
+    padding-bottom: 3rem;
+    margin: 0 1.4rem;
+    .descripcion {
+      text-align: center;
+      gap: 20px;
+      .titulo {
+        div {
+          font-size: 2.2rem;
+        }
+      }
+
+      .contenido {
+        font-size: 1.1rem;
+      }
+
+      .button {
+        button {
+          max-width: 240px;
+          padding: 18px 16px;
+          font-size: 0.7rem;
+        }
+      }
+    }
+
+    .imagen {
+      padding-top: 3.7rem;
+      display: block;
+      .logo {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .contenido {
+    display: block;
+    padding-bottom: 3rem;
+    .descripcion {
+      text-align: center;
+      gap: 20px;
+      .titulo {
+        div {
+          font-size: 2.3rem;
+        }
+      }
+
+      .contenido {
+        font-size: 1.1rem;
+      }
+
+      .button {
+        button {
+          max-width: 240px;
+          padding: 18px 16px;
+          font-size: 0.7rem;
+        }
+      }
+    }
+
+    .imagen {
+      padding-top: 3.7rem;
+      display: block;
+      .logo {
+        width: 100%;
+        height: auto;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1024px) and (max-width: 1268px) {
+  .contenido {
+    padding-bottom: 3rem;
+    gap: 60px;
+    .descripcion {
+      gap: 20px;
+      .titulo {
+        div {
+          font-size: 1.7rem;
+        }
+      }
+
+      .contenido {
+        font-size: 0.87rem;
+      }
+
+      .button {
+        button {
+          max-width: 220px;
+          padding: 17px 15px;
+          font-size: 0.6rem;
+        }
+      }
+    }
+
+    .imagen {
+      .logo {
+        width: 480px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1268px) and (max-width: 1440px) {
+  .contenido {
+    padding-bottom: 3rem;
+    gap: 60px;
+    .descripcion {
+      gap: 20px;
+      .titulo {
+        div {
+          font-size: 2.5rem;
+        }
+      }
+
+      .contenido {
+        font-size: 1.17rem;
+      }
+
+      .button {
+        button {
+          max-width: 240px;
+          padding: 18px 16px;
+          font-size: 0.76rem;
+        }
+      }
+    }
+
+    .imagen {
+      .logo {
+        width: 580px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1440px) and (max-width: 1520px) {
+  .contenido {
+    padding-bottom: 3rem;
+    gap: 60px;
+    .descripcion {
+      gap: 20px;
+      .titulo {
+        div {
+          font-size: 2.9rem;
+        }
+      }
+
+      .contenido {
+        font-size: 1.33rem;
+      }
+
+      .button {
+        button {
+          max-width: 290px;
+          padding: 18px 16px;
+          font-size: 0.82rem;
+        }
+      }
+    }
+
+    .imagen {
+      .logo {
+        width: 680px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1520px) and (max-width: 1600px) {
+  .contenido {
+    padding-bottom: 3rem;
+    gap: 60px;
+    .descripcion {
+      gap: 30px;
+      .titulo {
+        div {
+          font-size: 3rem;
+        }
+      }
+
+      .contenido {
+        font-size: 1.3rem;
+      }
+
+      .button {
+        button {
+          max-width: 250px;
+          padding: 15px 16px;
+          font-size: 0.85rem;
+        }
+      }
+    }
+
+    .imagen {
+      .logo {
+        width: 780px;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 1600px) and (max-width: 1656px) {
+  .contenido {
+    padding-bottom: 3rem;
+    gap: 60px;
+    .descripcion {
+      gap: 30px;
+      .titulo {
+        div {
+          font-size: 3.2rem;
+        }
+      }
+
+      .contenido {
+        font-size: 1.3rem;
+      }
+
+      .button {
+        button {
+          max-width: 250px;
+          padding: 15px 16px;
+          font-size: 0.85rem;
+        }
+      }
+    }
+
+    .imagen {
+      .logo {
+        width: 740px;
+      }
+    }
+  }
+}

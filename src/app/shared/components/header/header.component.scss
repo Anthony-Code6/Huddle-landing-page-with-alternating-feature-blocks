@@ -1,0 +1,108 @@
+nav {
+  width: 100%;
+  #navbar {
+    padding: 50px 50px;
+    #navbar-content {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      #navbar-logo {
+        .logo {
+          width: 190px;
+          height: auto;
+        }
+      }
+
+      #navbar-botton {
+        #button-free {
+          background-color: hsl(193, 100%, 100%);
+          color: hsl(192, 100%, 9%);
+          box-shadow: 1px 1px 10px hsl(208, 11%, 85%);
+          font-weight: 600;
+          font-family: "Poppins";
+          font-size: 0.78rem;
+          width: 150px;
+          padding: 9px 0;
+          border: none;
+          border-radius: 30px;
+        }
+
+        #button-free:hover{
+          filter: opacity(0.5);
+          color: hsl(192, 100%, 10%);
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 375px) {
+  nav {
+    #navbar {
+      padding: 20px 20px;
+      #navbar-content {
+        #navbar-logo {
+          .logo {
+            width: 100px;
+            height: auto;
+          }
+        }
+
+        #navbar-botton {
+          #button-free {
+            width: 100px;
+            font-size: 0.6rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 498px) {
+  nav {
+    #navbar {
+      padding: 30px 20px;
+      #navbar-content {
+        #navbar-logo {
+          .logo {
+            width: 140px;
+            height: auto;
+          }
+        }
+
+        #navbar-botton {
+          #button-free {
+            width: 130px;
+            font-size: 0.68rem;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 498px) and (max-width: 750px) {
+  nav {
+    #navbar {
+      padding: 38px 20px;
+      #navbar-content {
+        #navbar-logo {
+          .logo {
+            width: 150px;
+            height: auto;
+          }
+        }
+
+        #navbar-botton {
+          #button-free {
+            width: 130px;
+            font-size: 0.73rem;
+          }
+        }
+      }
+    }
+  }
+}

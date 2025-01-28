@@ -1,0 +1,210 @@
+.cards {
+  box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+  border-radius: 10px;
+  margin-top: 30px;
+  .cards-body {
+    padding: 3rem 2rem 3rem 5rem;
+    .contenido {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: center;
+      gap: 30px;
+
+      .informacion {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+        .titulo {
+          font-size: 1.6rem;
+          font-family: "Poppins", serif;
+          color: hsl(192, 100%, 9%);
+          font-weight: 600;
+        }
+
+        .descripcion {
+          font-size: 0.9rem;
+          font-family: "Open Sans", serif;
+          color: hsl(208, 11%, 55%);
+          font-weight: 400;
+        }
+      }
+
+      .imagen {
+        .logo {
+          width: 600px;
+          height: auto;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 200px) and (max-width: 300px) {
+  .cards {
+    margin: 0 15px 30px 15px;
+    .cards-body {
+      padding: 3rem 2rem;
+      .contenido {
+        flex-direction: column;
+        .informacion {
+          width: 100%;
+          text-align: center;
+          flex-direction: column;
+          gap: 10px;
+          .titulo {
+            font-size: 1.1rem;
+          }
+          .descripcion {
+            font-size: 0.66rem;
+          }
+        }
+        .imagen {
+          .logo {
+            width: 100%;
+          }
+        }
+      }
+      .imagen-right {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 300px) and (max-width: 400px) {
+  .cards {
+    margin: 0 20px 30px 20px;
+    .cards-body {
+      padding: 3rem 2rem;
+      .contenido {
+        flex-direction: column;
+        .informacion {
+          width: 100%;
+          text-align: center;
+          flex-direction: column;
+          gap: 10px;
+          .titulo {
+            font-size: 1.3rem;
+          }
+          .descripcion {
+            font-size: 0.9rem;
+          }
+        }
+        .imagen {
+          .logo {
+            width: 100%;
+          }
+        }
+      }
+      .imagen-right {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 400px) and (max-width: 500px) {
+  .cards {
+    margin: 0 20px 30px 20px;
+    .cards-body {
+      padding: 3rem 2rem;
+      .contenido {
+        flex-direction: column;
+        .informacion {
+          width: 100%;
+          text-align: center;
+          flex-direction: column;
+          gap: 10px;
+          .titulo {
+            font-size: 1.5rem;
+          }
+          .descripcion {
+            font-size: 0.98rem;
+          }
+        }
+        .imagen {
+          .logo {
+            width: 100%;
+          }
+        }
+      }
+
+      .imagen-right {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 500px) and (max-width: 767px) {
+  .cards {
+    margin: 0 20px 30px 20px;
+    .cards-body {
+      padding: 3rem 2rem;
+      .contenido {
+        flex-direction: column;
+
+        .informacion {
+          text-align: center;
+          flex-direction: column;
+          gap: 10px;
+          .titulo {
+            font-size: 1.6rem;
+          }
+          .descripcion {
+            font-size: 0.9rem;
+          }
+        }
+        .imagen {
+          .logo {
+            width: 100%;
+          }
+        }
+      }
+
+      .imagen-right {
+        flex-direction: column-reverse;
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 767px) and (max-width: 992px) {
+  .cards {
+    .cards-body {
+      padding: 3rem 2rem 3rem 2rem;
+      .contenido {
+        .informacion {
+          width: 400px;
+        }
+
+        .imagen {
+          .logo {
+            width: 300px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+  .cards {
+    .cards-body {
+      padding: 3rem 2rem 3rem 2rem;
+      .contenido {
+        .informacion {
+          width: 400px;
+        }
+
+        .imagen {
+          .logo {
+            width: 450px;
+          }
+        }
+      }
+    }
+  }
+}

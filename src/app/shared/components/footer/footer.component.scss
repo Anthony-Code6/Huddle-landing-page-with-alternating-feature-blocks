@@ -1,0 +1,267 @@
+.footer-content {
+  background-color: hsl(192, 100%, 9%);
+  color: hsl(208, 11%, 55%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-inline: 3rem;
+  block-size: 100%;
+  max-block-size: 80rem;
+  padding-top: 13rem;
+
+  .informacion {
+    .footer-logo {
+      display: block;
+      width: 100%;
+      margin-bottom: 2rem;
+      .logo {
+        width: 200px;
+        height: auto;
+        filter: grayscale(100%) brightness(1000%);
+      }
+    }
+
+    .content {
+      width: 100%;
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      flex-wrap: wrap;
+      gap: 20px;
+      .detalles {
+        width: 330px;
+        display: flex;
+        flex-direction: column;
+        gap: 14px;
+        div {
+          display: flex;
+          flex-direction: row;
+          align-items: center;
+          gap: 16px;
+
+          //   Iconos de Contacto
+          .icon-contat {
+            width: 15px;
+            height: 15px;
+          }
+
+          p {
+            padding: 0;
+            margin: 0;
+          }
+        }
+
+        div:nth-of-type(1) {
+          align-items: start;
+        }
+      }
+
+      .paginas {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        gap: 70px;
+
+        ul {
+          margin: 0;
+          padding: 0;
+          list-style: none;
+          display: flex;
+          flex-direction: column;
+          gap: 15px;
+          li {
+            a {
+              color: hsl(208, 11%, 55%);
+              text-decoration: none;
+            }
+          }
+        }
+      }
+
+      .redes-sociales {
+        ul {
+          list-style: none;
+          margin: 0;
+          padding: 0;
+          display: flex;
+          flex-direction: row;
+          gap: 18px;
+          li {
+            a {
+              color: hsl(208, 11%, 55%);
+              text-decoration: none;
+
+              i {
+                padding: 6.8px 8px;
+                border-radius: 50%;
+                border: 1px solid hsl(193, 100%, 96%);
+                display: flex;
+                justify-content: center;
+                align-content: center;
+                font-size: 0.8rem;
+                color: hsl(193, 100%, 96%);
+              }
+
+              i:hover{
+                color:hsl(322, 100%, 66%);
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .footer-end {
+    width: 100%;
+    display: block;
+    text-align: end;
+    font-family: "Open Sans", serif;
+    font-weight: 400;
+    font-size: 0.77rem;
+    margin-top: 3rem;
+    margin-bottom: 2.5rem;
+  }
+}
+
+@media screen and (min-width: 250px) and (max-width: 375px) {
+  .footer-content {
+    padding-inline: 0.6rem;
+    block-size: 100%;
+
+    .informacion {
+      .footer-logo {
+        margin-bottom: 1rem;
+        .logo {
+          width: 150px;
+        }
+      }
+
+      .content {
+        gap: 20px;
+        .detalles {
+          display: flex;
+          width: 100%;
+          gap: 10px;
+          div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 16px;
+
+            .icon-contat{
+              width: 10px;
+              height: 10px;
+            }
+
+            p{
+              font-size: .7rem;
+            }
+          }
+        }
+
+        .paginas {
+          display: block;
+          width: 100%;
+          ul {
+            display: flex;
+            flex-direction: column;
+            gap: 2px;
+            margin-bottom: 2px;
+
+            li{
+              a{
+                font-size: .7rem;
+              }
+            }
+          }
+        }
+
+        .redes-sociales {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+        }
+      }
+    }
+
+    .footer-end {
+      text-align: center;
+      margin-top: 0.9rem;
+      font-size: 0.6rem;
+    }
+  }
+}
+
+
+@media screen and (min-width: 375px) and (max-width: 498px) {
+  .footer-content {
+    padding-inline: 0.8rem;
+    block-size: 100%;
+
+    .informacion {
+      .content {
+        gap: 30px;
+        .detalles {
+          display: flex;
+          width: 100%;
+          gap: 10px;
+          div {
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            gap: 16px;
+          }
+        }
+
+        .paginas {
+          display: block;
+          width: 100%;
+          ul {
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            margin-bottom: 10px;
+          }
+        }
+
+        .redes-sociales {
+          display: flex;
+          width: 100%;
+          justify-content: center;
+        }
+      }
+    }
+
+    .footer-end {
+      text-align: center;
+      margin-top: 0.9rem;
+      font-size: 0.8rem;
+    }
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1444px) {
+  .container {
+    max-width: 1320px !important;
+  }
+}

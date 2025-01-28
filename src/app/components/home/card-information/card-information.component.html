@@ -1,0 +1,22 @@
+<div class="cards">
+    <div class="cards-body">
+        <div class="contenido" [class.imagen-right]="posicion_contenido()">
+            
+            @if (informacion()?.posision == 'left') {
+                <div class="imagen">
+                    <img src="{{informacion()?.imagen}}" class="logo"  alt="Logo">
+                </div>
+            }
+            
+            <div class="informacion">
+                <div class="titulo">{{informacion()?.titulo}}</div>
+                <div class="descripcion">{{informacion()?.descripcion}}</div>
+            </div>
+            @if (informacion()?.posision == 'right') {
+                <div class="imagen">
+                    <img src="{{informacion()?.imagen}}" class="logo"  alt="Logo">
+                </div>
+            }
+        </div>
+    </div>
+</div>
